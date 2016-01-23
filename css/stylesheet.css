@@ -1,17 +1,15 @@
+body {
+margin: 0px auto;
+}
+
 
 #me {
   position: fixed;
   width:300px;
   height: 300px;
   top: 200px;
-  left: 240px;
-  opacity: .5;
-  filter:Alpha(Opacity=50);
+  left: 140px;
 }
- #me:hover {
-   opacity: 1;
-   filter:Alpha(Opacity=100);
-   }
 
 
 .nav {
@@ -20,7 +18,7 @@
   bottom:0px;
   width: 100%;
   margin: 0;
-  padding: 5px;
+  padding: 15px;
 }
 
 .nav a {
@@ -59,7 +57,7 @@
   width: 600px;
   height: 300px;
   top: 200px;
-  left: 500px;
+  left: 400px;
   text-align: justify;
 }
 
@@ -85,4 +83,33 @@
   text-align: right;
   padding-right: 20px;
   padding-bottom: 30px;
+}
+
+.gallery {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top:200px;
+  margin: 20;
+
+}
+
+.pink {
+display:inline-table;
+line-height: 0;
+font-size: 0;
+background: #e80073;
+}
+
+#work {
+  display: table-cell;
+  width:200px;
+  height: 200px;
+}
+
+#work:hover {
+
+ opacity: 0.5;
+   filter:Alpha(Opacity=50);
+
 }
