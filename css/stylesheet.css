@@ -113,3 +113,22 @@ background: #e80073;
    filter:Alpha(Opacity=50);
 
 }
+
+.kreise {
+position: fixed;
+top: 420px;
+left: 880px;
+}
+
+.kreise a {
+font-size: 40px;
+text-decoration: none;
+color: #d0d0d0;}
+
+.kreise a:hover {
+color: #e80073;
+}
+
+.kreise a:active {
+color: #e80073;
+}
