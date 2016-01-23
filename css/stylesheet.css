@@ -1,18 +1,28 @@
-body {
-  max-width:700px;
+
+#me {
+  position: fixed;
+  width:300px;
+  height: 300px;
+  top: 200px;
+  left: 240px;
+  opacity: .5;
+  filter:Alpha(Opacity=50);
 }
+ #me:hover {
+   opacity: 1;
+   filter:Alpha(Opacity=100);
+   }
 
 
 .nav {
   position: fixed;
-  bottom: 0;
+  text-align: center;
+  bottom:0px;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 5px;
 }
-.nav ul{
-  text-align: center;
-}
+
 
 .nav a {
   display: inline-block;
@@ -48,7 +58,7 @@ body {
 .eins {
   position: fixed;
   width: 600px;
-  height: 500px;
+  height: 300px;
   top: 200px;
   left: 500px;
   text-align: justify;
@@ -56,12 +66,11 @@ body {
 
 .eins p { color:#fff;
   font-size: 19px;
+  ont-family: "proxima-nova", Helvetica, Arial, sans-serif;
   display: inline;
   line-height: 29px;
   padding-bottom: 2px;
   padding-top: 2px;
-  padding-left: 4px;
-  padding-right: 4px;
   font-style: italic;
   background-color: #e80073;
 }
