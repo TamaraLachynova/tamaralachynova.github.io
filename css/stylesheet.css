@@ -1,47 +1,80 @@
-#hintergrund {
-  position:absolute;
-  width:100%;
-  height:100%;
-  z-index:1;
+body {
+  max-width:700px;
 }
 
-.box1 {
-  position: absolute;
-  width: 250px;
-  height: 175px;
-  top: 150px;
-  left: 200px;
-  z-index:2;
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.nav ul{
+  text-align: center;
 }
 
-.box2 {
-  position: absolute;
-  width: 250px;
-  height: 175px;
-  top: 167px;
-  left: 790px;
-  z-index:2;
-}
-
-h1 {
-  font-size:30px;
-  color: #d6d6d6;
-  font-family: roboto;
-  text-transform: lowercase;
-}
-
-a {
-  font-size:20px;
-  color: #eaeaea;
-  font-family: arial;
-  text-transform: lowercase;
+.nav a {
+  display: inline-block;
+  margin-left: 4px;
+  color: #e80073;
+  border: 5px solid #e80073;
+  background: transparent;
+  padding: 14px 14px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  text-indent: 4px;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   text-decoration: none;
-  }
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-a:hover {
-  font-size:20px;
-  color: #d5d5d5;
-  font-family: arial;
-  text-transform: lowercase;
-  text-decoration: none;
-  }
+.nav a:hover {
+  color: #ffffff;
+  background: #e80073;
+}
+.nav a:active {
+  color: #ffffff;
+  background: #e80073;
+}
+
+
+.eins {
+  position: fixed;
+  width: 600px;
+  height: 500px;
+  top: 200px;
+  left: 500px;
+  text-align: justify;
+}
+
+.eins p { color:#fff;
+  font-size: 19px;
+  display: inline;
+  line-height: 29px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-style: italic;
+  background-color: #e80073;
+}
+
+.eins h1 {
+  color: #111;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-indent: 0px;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
