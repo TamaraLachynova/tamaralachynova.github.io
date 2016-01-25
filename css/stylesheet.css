@@ -3,6 +3,7 @@ margin: 0px auto;
 }
 .inhalt {
   text-align: center;
+  width:100%;
 }
 
 #me {
@@ -13,13 +14,12 @@ margin: 0px auto;
   left: 140px;
 }
 #me2 {
-  position: fixed;
+  position: relative;
   width:300px;
   height: 300px;
   top: 200px;
-  left: 240px;
+  left: -200px;
 }
-
 
 
 .nav {
@@ -97,17 +97,17 @@ margin: 0px auto;
 }
 
 .zwei {
-  position: fixed;
-  width: 500px;
+  position: absolute;
+  width: 300px;
   height: 300px;
-  top: 200px;
-  left: 500px;
+  left: 400px;
+
   text-align: justify;
 }
 
-.zwei p { color:#fff;
+.inhalt p { color:#fff;
   font-size: 19px;
-  ont-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   display: inline;
   line-height: 29px;
   padding-bottom: 2px;
@@ -128,7 +128,6 @@ margin: 0px auto;
   padding-right: 20px;
   padding-bottom: 30px;
 }
-
 
 
 .gallery {
@@ -161,9 +160,8 @@ background: #e80073;
 }
 
 .kreise {
-position: fixed;
-top: 420px;
-left: 880px;
+position: relative;
+text-align: center;
 }
 
 .kreise a {
