@@ -1,11 +1,12 @@
 body {
 margin: 0px auto;
 }
-.inhalt {
-  text-align: center;
-  width:100%;
-}
 
+.wrapper {
+  width:100%;
+  margin-left:auto;
+  margin-right: auto;
+}
 #me {
   position: fixed;
   width:300px;
