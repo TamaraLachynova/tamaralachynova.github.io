@@ -1,22 +1,14 @@
-body {
-  width:800px;
-  margin-left:auto;
-  margin-right:auto;
-  margin: 0px auto;
-}
 
 .wrapper {
   width:800px;
   margin-left:auto;
   margin-right:auto;
-
 }
 #me {
   position: fixed;
   width:300px;
   height: 300px;
-  top: 200px;
-  left: 140px;
+
 }
 #me2 {
   position: relative;
