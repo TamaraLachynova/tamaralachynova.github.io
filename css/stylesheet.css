@@ -28,6 +28,9 @@
   margin: 0;
   padding: 15px;
 }
+.nav li {
+  display: inline;
+}
 
 .nav a {
   display: inline-block;
