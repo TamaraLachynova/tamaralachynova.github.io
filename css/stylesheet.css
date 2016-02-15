@@ -4,12 +4,8 @@
   align-self: center;
   }
 
-
-
-
 .flex-wrapper {
-
-	display: flex;
+  display: flex;
 	align-items: center;
   justify-content: center;
 	height: 100vh;
@@ -17,20 +13,18 @@
 }
 
 .inhalt {
-
-	width: 600px;
+  width: 600px;
 	height: 300px;
 	background:#ffffff;
-	margin-left: auto;
-	margin-right: auto;
-
 }
 
 #me {
+  position: absolute;
   float: left;
   width:300px;
   height: 300px;
   margin-left: -70px;
+  z-index: 2;
 }
 
 #me2 {
@@ -84,11 +78,9 @@
 }
 
 
-.eins {
-  position: fixed;
-  width: 700px;
+.eins{
+  width: 600px;
   height: 300px;
-  left: 400px;
   text-align: justify;
 }
 
@@ -102,7 +94,7 @@
   padding-top: 2px;
   font-style: italic;
   background-color: #e80073;
-
+  font-weight: 200;
 }
 
 
@@ -119,10 +111,6 @@
   padding-bottom: 30px;
 }
 
-.rechtseinzug {
- margin-left: 60px;
-}
-
 
 .inhalt p { color:#fff;
   font-size: 19px;
@@ -133,6 +121,7 @@
   padding-top: 2px;
   font-style: italic;
   background-color: #e80073;
+  font-weight: 200;
 }
 
 .zwei h1 {
@@ -147,18 +136,16 @@
   padding-right: 10px;
   padding-bottom: 30px;
 }
+
 .zwei p {
-	margin-left: -30px;
+  margin-left: -40px;
+
+.linkseinzug {
+position: relative;
+z-index: 3;
+left: 150px;
 }
 
-.gallery {
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  top:200px;
-  margin: 20;
-
-}
 
 .pink {
 display:inline-table;
