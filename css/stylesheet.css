@@ -308,6 +308,17 @@ body {
   }
 
   /*what*/
+  .flex-wrapperwhat {
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;}
+
   .pink {
   display:block;
   line-height: 0;
