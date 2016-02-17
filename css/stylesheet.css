@@ -18,6 +18,13 @@
 	height: 100vh;
 }
 
+.flex-wrapperwhat {
+  display: flex;
+	align-items: center;
+  justify-content: center;
+	height: 100vh;
+}
+
 .inhalt {
   width: 600px;
 	height: 300px;
@@ -140,7 +147,6 @@
   text-indent: 0px;
   font-size: 20px;
   text-align: right;
-  padding-right: 10px;
   padding-bottom: 30px;
 }
 
@@ -301,4 +307,37 @@ body {
   position: relative;
   left: 0;
   }
+
+  /*what*/
+  .pink {
+  display:block;
+  line-height: 0;
+  font-size: 0;
+  background: #e80073;
+  }
+
+  #work {
+    display: block;
+    width:200px;
+    height: 200px;
+    margin-bottom: 7px;
+  }
+
+  /*contact*/
+  #me2 {
+    float: left;
+    width:300px;
+    height: 300px;
+    margin-bottom: 15px;
+  }
+
+  .zwei p {
+  margin-left: 0px;
+  }
+
+  .zwei {
+    text-align: center;
+  }
+  
+
 }
