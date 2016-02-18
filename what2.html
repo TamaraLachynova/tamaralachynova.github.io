@@ -3,8 +3,7 @@
   <meta charset="utf-8">
   <title> Tamara Lachynova</title>
   <link href="css/stylesheet.css" rel="stylesheet" media="screen,projection" />
-
-
+  <link href="css/lightbox.css" rel="stylesheet">
 </head>
 
 
@@ -21,10 +20,10 @@
 
 <div class="flex-wrapperwhat">
 <div class="kasten">
-  <div class="pink"><img id="work" src="images/hand.jpg" title="Hand"/></div>
-  <div class="pink"><img id="work" src="images/auge.jpg" title="Auge"/></div>
-  <div class="pink"><img id="work" src="images/kugel.jpg" title="Kugel"/></div>
-
+  <a href="images/hand.jpg" class ="pink" id="work" data-lightbox="hand" data-title="Fineliner and watercolor on Paper, 2014"><img id="work" src="images/hand.jpg" title="Hand"/></a>
+  <a href="images/auge.jpg" class ="pink" id="work" data-lightbox="auge" data-title="Colored pencil, pastel and yarn on Paper, 2014"><img id="work" src="images/auge.jpg" title="Auge"/></a>
+  <a href="images/kugel.jpg" class ="pink" id="work" data-lightbox="kugel" data-title="Colored pencil on Paper, 2014"><img id="work" src="images/kugel.jpg" title="Kugel"/></a>
+  
 
   <div class="kreise">
     <a href="http://tamaralachynova.github.io/what.html">&#8226;</a>
@@ -34,6 +33,6 @@
 </div>
 </div>
 
-
+<script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>

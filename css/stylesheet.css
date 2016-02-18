@@ -165,18 +165,25 @@ display:inline-table;
 line-height: 0;
 font-size: 0;
 background: #e80073;
+
 }
 
 #work {
   display: table-cell;
   width:200px;
   height: 200px;
+  
+
 }
 
 #work:hover {
 
  opacity: 0.5;
    filter:Alpha(Opacity=50);
+
+}
+
+.kasten img {
 
 }
 

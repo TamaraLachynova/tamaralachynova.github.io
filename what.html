@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <title> Tamara Lachynova</title>
   <link href="css/stylesheet.css" rel="stylesheet" media="screen,projection" />
+  <link href="css/lightbox.css" rel="stylesheet">
 </head>
 
 
@@ -19,9 +20,9 @@
 
 <div class="flex-wrapperwhat">
 <div class="kasten">
-  <div class="pink"><img id="work" src="images/rebus.jpg" title="Rebus"/></div>
-  <div class="pink"><img id="work" src="images/fisch.jpg" title="Fish"/></div>
-  <div class="pink"><img id="work" src="images/ying.jpg" title="Ying"/></div>
+  <a href="images/rebus.jpg" class ="pink" id="work" data-lightbox="rebus" data-title="Fineliner on Paper, 2014"><img id="work" src="images/rebus.jpg" title="Rebus"/></a>
+  <a href="images/fisch.jpg" class ="pink" id="work" data-lightbox="fisch" data-title="Pencil on Paper, 2014"><img id="work" src="images/fisch.jpg" title="Fisch"/></a>
+  <a href="images/ying.jpg" class ="pink" id="work" data-lightbox="ying" data-title="Pencil on Paper, 2014"><img id="work" src="images/ying.jpg" title="Ying"/></a>
 
 
   <div class="kreise">
@@ -32,6 +33,6 @@
 </div>
 </div>
 
-
+<script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
